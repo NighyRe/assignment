@@ -15,6 +15,6 @@ for i in range(200):
   h += 1 / n
   t.color(c)
   t.left(170)
-  for j in range(5):
+  for j in range(6):
     t.forward(210)
     t.left(200)
