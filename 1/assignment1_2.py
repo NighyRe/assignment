@@ -14,7 +14,7 @@ for i in range(200):
   c = colorsys.hsv_to_rgb(h, 1, 0.9)
   h += 1 / n
   t.color(c)
-  t.left(170)
-  for j in range(6):
-    t.forward(210)
-    t.left(200)
+  t.left(185)
+  for j in range(3):
+    t.forward(100)
+    t.left(15)
