@@ -10,6 +10,7 @@ t.speed(0)
 n = 36
 h = 0
 
+t.goto(100, 200)
 for i in range(200):
   c = colorsys.hsv_to_rgb(h, 1, 0.9)
   h += 1 / n
